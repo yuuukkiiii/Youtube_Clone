@@ -1,0 +1,62 @@
+/* Adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+    /* Header */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        height: auto;
+    }
+
+    .left-section {
+        display: flex;
+        align-items: center;
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .youtube-logo {
+        width: 80px;
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .middle-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .search-bar {
+        width: 80%;
+        border-radius: 30px;
+        border-right: none;
+        border-bottom: 1px solid rgb(51, 51, 51);
+        padding: 10px 20px;
+        font-size: 1.4rem;
+    }
+
+    .search-btn, .mic {
+        width: 40px;
+        height: 40px;
+    }
+
+    .right-section {
+        display: none;
+    }
+
+
+    /* Main content */
+    main {
+        padding: 15px;
+        padding-top: 71px;
+    }
+    .videos-container {
+        justify-content: flex-start;
+    }
+    .video {
+        width: 100%;
+    }
+}
